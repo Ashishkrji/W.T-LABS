@@ -1,9 +1,9 @@
 Creating a bio-data (also known as a resume or CV) of an employee involves structuring information in a clean and organized manner.
 Here’s an example of an HTML structure for creating a simple employee bio-data:
 
-HTML Code for Employee Bio-Data:
+**HTML Code for Employee Bio-Data:**
 
-Explanation:
+**Explanation:**
 
 1. Personal Information:
 o This section includes basic details such as the employee's full name, gender, date of birth, nationality, and contact information like phone and email.
@@ -20,12 +20,12 @@ o This section outlines the work history of the employee, with job titles, compa
 5. Educational Qualifications:
 o The employee’s educational background is listed, including degrees and certifications.
 
-Styling:
+**Styling:**
 • The .bio-container provides a container with padding, a background color, and rounded corners for a neat appearance.
 • Each section like Personal Information, Skills, Experience, and Education is styled to be distinct with bold section titles and properly formatted content.
 • Lists are used to display the employee's information and qualifications clearly.
 
-Customization:
+**Customization:**
 
 • You can replace "John Doe", "XYZ Tech Solutions", "ABC University", and other placeholder details with the actual data of the employee.
 • Feel free to adjust the layout, fonts, or colors to match the company’s style guide or the employee’s preference.
