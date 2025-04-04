@@ -1,8 +1,8 @@
 To embed audio and video files into your web page, HTML provides the <audio> and <video> tags. These elements allow you to integrate multimedia content directly into your page without needing third-party plugins like Flash.
 
-Example of Embedding Audio and Video:
+**Example of Embedding Audio and Video:**
 
-Explanation:
+**Explanation:**
 
 1. Audio Embed:
 o The <audio> element is used to embed audio files. The controls attribute provides play, pause, and volume controls for the user. 
@@ -19,17 +19,19 @@ o controls: Adds basic controls (play, pause, volume, etc.) to the media element
 o width: Specifies the width of the video player (for videos).
 o src: The file path to the media content. Replace "your-audio-file.mp3" and "your-video-file.mp4" with the actual paths to your media files.
 
-Customization:
+**Customization:**
+
 • You can customize the width, height, and other attributes of the video or audio element.
 • For audio, you can use different file formats such as .ogg, .wav, and .flac depending on your needs.
 • For video, using multiple formats (MP4, WebM, Ogg) ensures that the video is compatible with a variety of browsers.
 
-Additional Features:
+**Additional Features:**
+
 • Autoplay: You can add the autoplay attribute to automatically start playing the media when the page loads.
 • Loop: Add the loop attribute to make the audio or video loop indefinitely.
 • Muted: Add the muted attribute to start the audio or video with the sound turned off.
 
-Example with Autoplay and Loop:
+**Example with Autoplay and Loop:**
 
 html
 <audio controls autoplay loop>
@@ -44,6 +46,7 @@ Your browser does not support the audio element.
 Your browser does not support the video tag.
 </video>
 
-Conclusion:
+**Conclusion:**
+
 Embedding audio and video in a web page is straightforward with the <audio> and <video> tags. By specifying different 
 file formats and using attributes like controls, autoplay, and loop, you can easily integrate multimedia into your website.
