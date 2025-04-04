@@ -4,7 +4,7 @@ Since the <marquee> tag is deprecated in HTML5, it's better to use CSS animation
 
 HTML and CSS Example for Scrolling Letterhead:
 
-Explanation:
+**Explanation:**
 
 1. HTML Structure:
 o The .letterhead-container is the main container for the letterhead.
@@ -19,7 +19,7 @@ o The animation: scroll-left 10s linear infinite; applies the scroll animation, 
 o The @keyframes rule defines the animation, creating a smooth left-to-right scroll.
 o The animation makes the text scroll from right to left across the page. 
 
-Customization:
+**Customization:**
 
 • Colors: Modify the background color and text color in the .letterhead-container to match your college's official colors.
 • Speed: You can change the 10s value in the animation property to adjust the speed of the scroll.
