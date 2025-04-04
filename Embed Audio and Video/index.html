@@ -1,0 +1,32 @@
+<!-- Q 8.Embed Audio and Video into your web page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Embedding Audio and Video</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Embedding Audio and Video into a Web Page</h1>
+        <!-- Audio Embed -->
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="your-audio-file.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>This is an example of an embedded audio file. If you don't see a
+            player, try a modern browser.</p>
+        <!-- Video Embed -->
+        <h2>Video Player</h2>
+        <video width="600" controls>
+            <source src="your-video-file.mp4" type="video/mp4">
+            <source src="your-video-file.webm" type="video/webm">
+            <source src="your-video-file.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <p>This is an example of an embedded video file. If you don't see a
+            player, try a modern browser.</p>
+    </body>
+</html>

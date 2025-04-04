@@ -1,0 +1,36 @@
+/* Container for the two pages */
+.container {
+    display        : flex;
+    justify-content: space-between;
+    height         : 100vh;
+    /* Full viewport height */
+}
+
+/* Each iframe will take up 50% of the width */
+iframe {
+    width : 48%;
+    /* Adjust width to allow space between iframes */
+    height: 100%;
+    border: 2px solid #ccc;
+}
+
+/* Optional: Add a little padding and margin for better layout */
+.container iframe:nth-child(1) {
+    margin-right: 2%;
+}
+
+/* Optional: Styling for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        /* Stack the frames vertically on smaller screens */
+    }
+
+    iframe {
+        width        : 100%;
+        margin-right : 0;
+        /* Remove right margin in mobile view */
+        margin-bottom: 20px;
+        /* Add space between the iframes */
+    }
+}

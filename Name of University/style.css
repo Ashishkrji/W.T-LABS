@@ -1,0 +1,91 @@
+/* General styling for the body */
+body {
+    font-family     : Arial, sans-serif;
+    background-color: #f9f9f9;
+    color           : #333;
+    margin          : 0;
+    padding         : 0;
+    text-align      : center;
+    line-height     : 1.6;
+}
+
+/* Heading styles */
+h1 {
+    font-size  : 2.5em;
+    color      : #4CAF50;
+    margin-top : 40px;
+    font-weight: bold;
+}
+
+/* Paragraphs and text formatting */
+p {
+    font-size : 1.2em;
+    margin-top: 20px;
+    color     : #333;
+}
+
+/* Bold text */
+b {
+    font-weight: bold;
+    color      : #d32f2f;
+}
+
+/* Italic text */
+i {
+    font-style: italic;
+    color     : #673ab7;
+}
+
+/* Underlined text */
+u {
+    text-decoration: underline;
+    color          : #2196f3;
+}
+
+/* Highlighted text */
+mark {
+    background-color: yellow;
+    color           : #333;
+    padding         : 0 5px;
+}
+
+/* Smaller text */
+small {
+    font-size: 0.8em;
+    color    : #757575;
+}
+
+/* Strikethrough text */
+del {
+    text-decoration: line-through;
+    color          : #9e9e9e;
+}
+
+/* Inserted text */
+ins {
+    text-decoration: underline;
+    color          : #388e3c;
+}
+
+/* Emphasized text */
+em {
+    font-style: italic;
+    color     : #f57c00;
+}
+
+/* Strong emphasis (usually bold) */
+strong {
+    font-weight: bold;
+    color      : #d32f2f;
+}
+
+/* Custom color for text */
+span {
+    font-size: 1.2em;
+    color    : #1976d2;
+}
+
+/* Adding some margin for better separation */
+p+p {
+    margin-top: 25px;
+}

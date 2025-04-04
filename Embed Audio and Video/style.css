@@ -1,0 +1,47 @@
+/* General styling for the body */
+body {
+    font-family     : Arial, sans-serif;
+    background-color: #f4f4f9;
+    color           : #333;
+    margin          : 0;
+    padding         : 0;
+    text-align      : center;
+}
+
+/* Heading styles */
+h1 {
+    font-size : 2.5em;
+    color     : #4CAF50;
+    margin-top: 30px;
+}
+
+/* Subheading styles */
+h2 {
+    font-size : 1.8em;
+    color     : #333;
+    margin-top: 40px;
+}
+
+/* Audio and video section */
+audio,
+video {
+    margin-top      : 20px;
+    border          : 2px solid #ddd;
+    border-radius   : 8px;
+    padding         : 10px;
+    box-shadow      : 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Text under players */
+p {
+    font-size  : 1em;
+    color      : #666;
+    margin-top : 10px;
+    line-height: 1.6;
+}
+
+/* Adding some space between the sections */
+section {
+    margin-bottom: 60px;
+}

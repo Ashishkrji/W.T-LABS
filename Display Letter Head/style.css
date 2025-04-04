@@ -1,0 +1,26 @@
+/* Style for the container of the letterhead */
+.letterhead-container {
+    width: 100%;
+    overflow: hidden; /* To hide the overflow */
+    background-color: #002f6c; /* You can set the background color of your letterhead */
+    color: white; /* Color of the text */
+    font-family: 'Arial', sans-serif; /* Font of the letterhead */
+    font-size: 24px; /* Font size for the text */
+    padding: 10px;
+    }
+    /* Styling for the text to scroll */
+    .letterhead-text {
+    white-space: nowrap; /* Prevent text wrapping */
+    display: inline-block; /* Make text inline-block for scroll effect */
+    padding-left: 100%; /* Start the text from the right side */
+animation: scroll-left 10s linear infinite; /* Apply scrolling animation */
+}
+/* The scrolling animation from right to left */
+@keyframes scroll-left {
+0% {
+transform: translateX(100%); /* Start from the right */
+}
+100% {
+transform: translateX(-100%); /* End at the left */
+}
+}

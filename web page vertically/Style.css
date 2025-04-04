@@ -1,0 +1,39 @@
+/* Body styling */
+body {
+    margin     : 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the layout */
+.container {
+    display: flex;
+    height : 100vh;
+    /* Full viewport height */
+}
+
+/* Left pane (College Logo) */
+.left-pane {
+    flex            : 1;
+    /* Take up half of the width */
+    background-color: #f4f4f4;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+/* Right pane (University Logo) */
+.right-pane {
+    flex            : 1;
+    /* Take up the other half of the width */
+    background-color: #e9e9e9;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+/* Image styling */
+.logo {
+    max-width : 80%;
+    /* Adjust the size of the logos */
+    max-height: 80%;
+}

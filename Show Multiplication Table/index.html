@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multiplication Table</title>
+    </head>
+    <body>
+        <h1>Multiplication Table Generator</h1>
+        <!-- Input field for the user to enter a number -->
+        <label for="number">Enter a number: </label>
+        <input type="number" id="number" required>
+        <button onclick="generateTable()">Generate Table</button>
+        <h2>Multiplication Table:</h2>
+        <ul id="tableResult"></ul>
+        <script>
+// Function to generate multiplication table
+function generateTable() {
+// Get the number inputted by the user
+let num = document.getElementById('number').value;
+// Check if the number is valid
+if (num === "" || isNaN(num)) {
+    alert("Please enter a valid number.");
+    return;
+    }
+    num = parseInt(num);
+    // Get the result container
+    let tableResult = document.getElementById('tableResult');
+    // Clear previous results
+    tableResult.innerHTML = "";
+    // Loop to generate multiplication table from 1 to 10
+    for (let i = 1; i <= 10; i++) {
+    let listItem = document.createElement('li');
+    listItem.textContent = `${num} x ${i} = ${num * i}`;
+    tableResult.appendChild(listItem);
+    }
+    }
+    </script>
+    </body>
+</html>

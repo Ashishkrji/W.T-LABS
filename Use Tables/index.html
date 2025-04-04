@@ -1,0 +1,66 @@
+<!-- Q 7.Use Tables to provide layout to your web page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Layout with Tables</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <table>
+            <!-- Header Row -->
+            <tr>
+                <td colspan="3" class="header">
+                    Website Header: Department of Computer Science
+                </td>
+            </tr>
+            <!-- Content Row -->
+            <tr>
+                <!-- Sidebar Column -->
+                <td class="sidebar" style="width: 20%;">
+                    <h3>Sidebar</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </td>
+                <!-- Main Content Column -->
+                <td class="content main" style="width: 60%;">
+                    <h2>Main Content Area</h2>
+                    <p>Welcome to the Department of Computer Science! Here we
+                        offer a variety of courses and research opportunities.
+                        Explore our website to learn more about our programs and
+                        faculty.</p>
+                    <h3>Important Announcements:</h3>
+                    <ul>
+                        <li>New course offerings for the upcoming semester!</li>
+                        <li>Join our annual tech conference next month!</li>
+                        <li>Check out the new research projects in AI!</li>
+                    </ul>
+                </td>
+                <!-- Additional Column (optional for future use) -->
+                <td class="sidebar" style="width: 20%;">
+                    <h3>Other Links</h3>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Directory</a></li>
+                        <li><a href="#">Research Areas</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Footer Row -->
+            <tr>
+                <td colspan="3" class="footer">
+                    Department of Computer Science | University Name | © 2025
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

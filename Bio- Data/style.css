@@ -1,0 +1,61 @@
+body {
+    font-family     : Arial, sans-serif;
+    margin          : 20px;
+    background-color: #f4f4f9;
+}
+
+.bio-container {
+    width           : 70%;
+    margin          : auto;
+    background-color: #fff;
+    padding         : 20px;
+    border          : 2px solid #ddd;
+    border-radius   : 8px;
+}
+
+h1 {
+    text-align: center;
+    color     : #4CAF50;
+}
+
+.section-title {
+    font-size  : 20px;
+    font-weight: bold;
+    color      : #333;
+    margin-top : 20px;
+}
+
+.section-content {
+    margin-left: 20px;
+    margin-top : 5px;
+}
+
+.section-content ul {
+    list-style-type: none;
+    padding        : 0;
+}
+
+.section-content ul li {
+    margin-bottom: 5px;
+}
+
+.contact-info,
+.skills,
+.experience,
+.education {
+    margin-bottom: 20px;
+}
+
+.contact-info ul,
+.skills ul,
+.experience ul,
+.education ul {
+    padding-left: 20px;
+}
+
+.contact-info li,
+.skills li,
+.experience li,
+.education li {
+    margin-bottom: 10px;
+}
