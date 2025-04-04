@@ -21,6 +21,7 @@ o This section outlines the work history of the employee, with job titles, compa
 o The employee’s educational background is listed, including degrees and certifications.
 
 **Styling:**
+
 • The .bio-container provides a container with padding, a background color, and rounded corners for a neat appearance.
 • Each section like Personal Information, Skills, Experience, and Education is styled to be distinct with bold section titles and properly formatted content.
 • Lists are used to display the employee's information and qualifications clearly.
@@ -30,7 +31,7 @@ o The employee’s educational background is listed, including degrees and certi
 • You can replace "John Doe", "XYZ Tech Solutions", "ABC University", and other placeholder details with the actual data of the employee.
 • Feel free to adjust the layout, fonts, or colors to match the company’s style guide or the employee’s preference.
 
-Conclusion:
+**Conclusion:**
 
 This template provides a clear, professional way to present an employee's bio-data using HTML and CSS.
 You can customize it further by adding additional sections like awards, certifications, or languages known if necessary.
