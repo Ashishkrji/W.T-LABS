@@ -4,7 +4,7 @@ Here are some common text formatting tags in HTML:
 
 Example of "Name of University" with Different Formatting:
 
-Explanation of Tags:
+**Explanation of Tags:**
 
 1. <h1>: Displays the text as a heading (largest heading, typically used for the main title on a page).
 2. <b>: Bold the text, making it thicker and more prominent.
@@ -18,7 +18,8 @@ Explanation of Tags:
 10.<strong>: Applies strong emphasis (typically renders text in bold).
 11. <span>: Allows inline styling, where you can apply CSS to change the color or other properties. In this example, the text is displayed in blue using style="color: blue;".
     
-Visual Output:
+**Visual Output:**
+
 • Heading 1 will display "Name of University" as a large title.
 • Bold, Italic, Underlined, Highlighted, Smaller, Strikethrough, and Inserted versions of the text will be displayed with different effects.
 • Emphasized and Strong text will display the name in different ways to highlight its importance.
